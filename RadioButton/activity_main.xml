@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        />
+        <RadioGroup
+            android:id="@+id/relation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/boyfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boyfriend"
+            android:checked="true"
+            />
+            <RadioButton
+                android:id="@+id/bestfriend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bestfriend"
+                />
+        <RadioButton
+            android:id="@+id/girlfriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Girlfriend"
+            />
+        </RadioGroup>
+    <CheckBox
+        android:id="@+id/tandc"
+        android:text="Sagar ne zhol kia tha kuchh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/mybutton"
+        android:text="Log In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+</ScrollView>
